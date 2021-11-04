@@ -1,6 +1,8 @@
 version "0.1"
 group "grailsapp"
-
+plugins {
+  id "org.sonarqube" version "3.3"
+}
 apply plugin:"eclipse"
 apply plugin:"idea"
 apply plugin:"war"
